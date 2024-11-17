@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.box {
+  background-color: beige;
+  text-align: center;
+  margin: 60px;
+}
+.button {
+  background-color: orangered;
+}
+#ul {
+  list-style: none;
+}
+.container:hover {
+  background-color: pink;
+}
+.box:hover {
+  background-color: chartreuse;
+}
+.button:hover {
+  background-color: cyan;
+}
